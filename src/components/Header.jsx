@@ -25,7 +25,7 @@ const Header = () => {
                     <li>Contact</li>
                 </ul>
                 {/* RESPONSIVENESS MENU */}
-                <ul className={" md:hidden w-full h-screen text-white fixed bg-black top-[88px] ${toggle ? 'left-[0]' : 'left-[-100%]'} "}>
+                <ul className={' md:hidden w-full h-screen text-white fixed bg-black top-[88px] ${toggle ? "left-[0]" : "left-[-100%]"} '}>
                 <li className='p-3'>Home</li>
                 <li className='p-3'>Company</li>
                 <li className='p-3'>Resources</li>
